@@ -1,0 +1,13 @@
+#variable "token-chandra-org" {}
+#variable "token-philips-internal" {}
+variable "repo_admin" {}
+variable "role_admin" {}
+variable "repo_writer" {}
+variable "repository" {}
+variable "main_branch" {}
+variable "dismiss_pull_request_user" {}
+variable "dismiss_pull_request_team" {}
+variable "check_status" {}
+variable "role_writer" {}
+variable "artifactory-username" {}
+variable "artifactory-password" {}
