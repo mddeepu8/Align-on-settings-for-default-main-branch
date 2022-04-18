@@ -1,0 +1,14 @@
+dismiss_pull_request_team= "Synergy-admins" #Restrict who can dismiss pull request reviews for team 
+dismiss_pull_request_user= "manideepgolla" #Restrict who can dismiss pull request reviews for user
+check_status= "build,test" # status checks  
+repo_admin= "Synergy-DevOps1" #admin access to repository being protected.
+repo_writer= "manideepgolla" #Writer access to repository being protected.
+repository= "synergy-test-repo" #This is the name of repo under which issues are to be created to apply policies (orgname/reponame)
+main_branch= "Main" #This is the master/main branch to protect
+role_writer= "Synergy" #adding write the access to the repository
+role_admin= "Synergy-admins" #adding admin the access to the repository
+#token-chandra-org = "token"
+#token-philips-internal = "token"
+#token= "${cli_config_credentials_token}"
+artifactory-username = "code1"
+artifactory-password = "pwd"
